@@ -1,0 +1,17 @@
+Bookmarker {
+	Header
+	Dashboard: {
+		BookmarksList,
+		AddBookmark button,
+		Filters dropdown
+	}
+	Create,
+	Edit
+}
+
+Bookmark {
+	id,
+	title,
+	url,
+	score
+}
