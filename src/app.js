@@ -11,11 +11,6 @@ import { sortByUsage } from './actions/filters';
 
 const store = configureStore();
 
-const bookmark1 = store.dispatch(addBookmark({ title: 'Google', url: 'https://google.com' }));
-const bookmark2 = store.dispatch(addBookmark({ title: 'Wikipedia', url: 'https://wikipedia.com' }));
-const bookmark3 = store.dispatch(addBookmark({ title: 'Facebook', url: 'https://facebook.com' }));
-console.log(store.getState());
-
 const jsx = (
 	<Provider store={store}>
 		<AppRouter />
